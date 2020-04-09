@@ -1,10 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-const converterToPdf = require("electron-html-to")
 const api = require("./api");
-const generateHTML = require("./generateHTML");
-const open = require("open");
+const generateHTML = require("./html");
+
 
 //Does questions in terminal
 const questions = [
